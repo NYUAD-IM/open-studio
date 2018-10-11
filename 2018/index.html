@@ -1,0 +1,69 @@
+<!-- <!DOCTYPE HTML> -->
+<html>
+<head>
+  <meta charset="utf-8" />
+  <!-- <meta content='width=device-width, initial-scale=.1, maximum-scale=.1, user-scalable=0' name='viewport' /> -->
+  <title>NYUAD Open Studios 2018</title>
+  <link rel="shortcut icon" href="../dist/favicon.png">
+  <script src="../dist/lib/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+  <script src="../dist/lib/paper-full.min.js"></script>
+  <script src="../dist/lib/socket.io.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../dist/style.css"></link>
+
+  <!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//nyuad.innocraft.cloud/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Piwik Code -->
+
+</head>
+<body>
+  <div id="banner">
+    <a href="../index.html"><div id="os-logo"></div></a>
+    <div id="header">2018 - Coming Soon...</div>
+    <div id="howler">
+
+      <audio id="audio-player" src="http://14123.live.streamtheworld.com/SAM10AAC091_SC" preload="auto" crossorigin="anonymous" controls autoplay></audio>
+      <div id="howler_logo"></div>
+      <div id='howler_text'>
+        BROADCASTING<br />
+        HOWLER RADIO
+      </div>
+    </div>
+  </div>
+  <div id="container">
+    <!--
+    <canvas id="myCanvas"></canvas>
+    <div class="floors">
+      <div id="first_floor">FIRST</div>
+      <div id="ground_floor">GROUND</div>
+    </div>
+    <div id="info">
+        <div id="title">Arts Center Open Studios Map</div>
+        <hr>
+        <div id="time_and_place">
+          <div id="place"></div>
+          <div id="time"></div>
+        </div>
+        <hr>
+        <div id="description">Tap an icon to display information!</div>
+    </div>
+    -->
+  </div>
+</body>
+<script>
+  var YEAR = 2018;
+  var SOCKET_SERVER;
+</script>
+<script src="../dist/bundle.js"></script>
+</html>
