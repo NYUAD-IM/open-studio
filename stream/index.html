@@ -1,0 +1,40 @@
+<!-- <!DOCTYPE HTML> -->
+<html>
+<head>
+  <!-- <meta content='width=device-width, initial-scale=.1, maximum-scale=.1, user-scalable=0' name='viewport' /> -->
+  <title>NYUAD Open Studios 2017</title>
+  <link rel="shortcut icon" href="../dist/favicon.png">
+  <script src="../dist/lib/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+  <script src="../dist/lib/paper-full.min.js"></script>
+  <script src="../dist/lib/socket.io.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../dist/style.css"></link>
+</head>
+<body>
+ <div id="overlay">
+    <div id="surface">
+      <video src="../dist/countdown.mov" id="countdown">
+      </video>
+      <img id="stream" src="../dist/loading-darts.gif" crossorigin='anonymous'>
+    </div>
+</div>
+  <div id="banner">
+    <a href="../index.html"><div id="os-logo"></div></a>
+    <div id="header" style="text-align: center;">VIDEO STREAM</div>
+    <div id="howler">
+
+      <audio id="audio-player" src="http://14123.live.streamtheworld.com/SAM10AAC091_SC" preload="auto" crossorigin="anonymous" controls autoplay></audio>
+      <div id="howler_logo"></div>
+      <div id='howler_text'>
+        BROADCASTING<br />
+        HOWLER RADIO
+      </div>
+    </div>
+  </div>
+
+</body>
+<script>
+  var YEAR;
+  var SOCKET_SERVER = "https://enframed.net:9999";
+</script>
+<script src="../dist/bundle.js"></script>
+</html>
