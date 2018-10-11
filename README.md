@@ -1,6 +1,6 @@
 # NYUAD Open Studios Website
 
-This is the repository for the [Open Studios at NYUAD Arts Center](http://nyuad.im).
+This is the repository for the [Open Studios at NYUAD Arts Center](http://openstudios.nyuad.im).
 
 ## About
 
