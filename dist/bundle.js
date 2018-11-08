@@ -281,18 +281,18 @@ function populate(info) {
 		hideContent();
 
 		setTimeout(function () {
-				holder.setAttribute('style', 'color: ' + c + '; border-color:' + c);
-				var hr = document.getElementsByTagName('hr');
-				for (var i = 0; i < hr.length; i++) {
-						hr[i].setAttribute('style', 'background-color: ' + c);
-						hr[i].style.opacity = 0;
-				}
-
 				title.innerHTML = info.title;
 				time.innerHTML = info.timing;
 				place.innerHTML = info.location;
 				description.innerHTML = info.description;
 		}, 500);
+
+    holder.setAttribute('style', 'color: ' + c + '; border-color:' + c);
+    var hr = document.getElementsByTagName('hr');
+    for (var i = 0; i < hr.length; i++) {
+        hr[i].setAttribute('style', 'background-color: ' + c);
+        hr[i].style.opacity = 0;
+    }
 
 		setTimeout(showContent, 500);
 }

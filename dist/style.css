@@ -112,13 +112,12 @@ canvas {
   margin: 2%;
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
-  -webkit-transition: opacity 0.5s ease-in-out;
-  -moz-transition: opacity 0.5s ease-in-out;
-  -webkit-transition: border-color .5s ease-in-out;
-  -moz-transition: border-color .5s ease-in-out;
-  -o-transition: border-color .5s ease-in-out;
-  -ms-transition: border-color .5s ease-in-out;
-  transition: border-color .5s ease-in-out; }
+  -webkit-transition: border-color .5s ease-in-out, color 0.5s ease-in-out, opacity 0.25s ease-in-out;
+  -moz-transition: border-color .5s ease-in-out, color 0.5s ease-in-out, opacity 0.25s ease-in-out;
+  -o-transition: border-color .5s ease-in-out, color 0.5s ease-in-out, opacity 0.25s ease-in-out;
+  -ms-transition: border-color .5s ease-in-out, color 0.5s ease-in-out, opacity 0.25s ease-in-out;
+  transition: border-color .5s ease-in-out, color 0.5s ease-in-out, opacity 0.25s ease-in-out;
+}
 
 #title {
   width: 90%; }
@@ -177,13 +176,11 @@ hr {
   background-color: #13a89e;
   height: 3px;
   border: none;
-  -webkit-transition: opacity .15s ease-in-out;
-  -moz-transition: opacity .15s ease-in-out;
-  -webkit-transition: background-color .15s linear;
-  -moz-transition: background-color .15s linear;
-  -o-transition: background-color .15s linear;
-  -ms-transition: background-color .15s linear;
-  transition: background-color .15s linear; }
+  -webkit-transition: background-color .5s linear, opacity .25s ease-in-out;
+  -moz-transition: background-color .5s linear, opacity .25s ease-in-out;
+  -o-transition: background-color .5s linear, opacity .25s ease-in-out;
+  -ms-transition: background-color .5s linear, opacity .25s ease-in-out;
+  transition: background-color .5s linear, opacity ..25s ease-in-out; }
 .top-image {
   width: 100%;
   height: auto;
