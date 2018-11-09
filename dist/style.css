@@ -103,7 +103,6 @@ canvas {
   width: 25%;
   /*height: auto;*/
   height: auto;
-  transition: max-height 0.5s ease-in-out;
   min-height: 20%;
   max-height: 75%;
   top: 0%;
@@ -123,8 +122,8 @@ canvas {
   width: 90%; }
 
 #title, #time, #place, #description {
-  -webkit-transition: opacity 0.5s ease-in-out;
-  -moz-transition: opacity 0.5s ease-in-out; }
+  -webkit-transition: opacity 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out; }
 
 #time_and_place {
   width: 100%;
@@ -180,7 +179,7 @@ hr {
   -moz-transition: background-color .5s linear, opacity .25s ease-in-out;
   -o-transition: background-color .5s linear, opacity .25s ease-in-out;
   -ms-transition: background-color .5s linear, opacity .25s ease-in-out;
-  transition: background-color .5s linear, opacity ..25s ease-in-out; }
+  transition: background-color .5s linear, opacity .25s ease-in-out; }
 .top-image {
   width: 100%;
   height: auto;
