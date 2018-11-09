@@ -182,11 +182,21 @@ function initMap() {
 						paper.project.view.zoom = 0.75;
 						canvas.style.top = '-8%';
 						canvas.style.left = '-10%';
+          if (YEAR == 2018) {
+						ground_floor.bounds.width = window.innerWidth * 0.8;
+						ground_floor.bounds.height = window.innerWidth * 662.5 / 947.1 * 0.8;
+          } else {
 						ground_floor.bounds.width = window.innerWidth * 0.8;
 						ground_floor.bounds.height = window.innerHeight;'';
+          }
 				} else {
+          if (YEAR == 2018) {
+						ground_floor.bounds.width = mobile_w;
+						ground_floor.bounds.height = mobile_w * 662.5 / 947.1;
+          } else {
 						ground_floor.bounds.width = mobile_w;
 						ground_floor.bounds.height = mobile_h;
+          }
 				}
 
 				for (var i = 0; i < buttons.length; i++) {
@@ -201,14 +211,24 @@ function initMap() {
 				buttons = first_floor.children.Buttons.children;
 
 				if (!isMobile()) {
+          if (YEAR == 2018) {
+						first_floor.bounds.width = window.innerWidth * 0.8;
+						first_floor.bounds.height = window.innerWidth * 662.5 / 947.1 * 0.8;
+          } else {
 						first_floor.bounds.width = window.innerWidth * 0.8;
 						first_floor.bounds.height = window.innerHeight;
+          }
 				} else {
 						canvas.style.top = '4%';
 						canvas.style.left = '2%';
 						canvas.style.width = '98%';
+          if (YEAR == 2018) {
 						first_floor.bounds.width = mobile_w;
 						first_floor.bounds.height = mobile_h;
+          } else {
+						first_floor.bounds.width = mobile_w;
+						first_floor.bounds.height = mobile_w * 662.5 / 947.1;
+          }
 				}
 
 				for (var i = 0; i < buttons.length; i++) {
